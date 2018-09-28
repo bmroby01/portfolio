@@ -1,0 +1,227 @@
+Received: from BL2NAM02HT069.eop-nam02.prod.protection.outlook.com
+ (2603:10a6:7:7d::42) by HE1PR02MB1131.eurprd02.prod.outlook.com with HTTPS
+ via HE1PR0102CA0065.EURPRD01.PROD.EXCHANGELABS.COM; Thu, 27 Sep 2018 14:31:08
+ +0000
+Received: from BL2NAM02FT044.eop-nam02.prod.protection.outlook.com
+ (10.152.76.51) by BL2NAM02HT069.eop-nam02.prod.protection.outlook.com
+ (10.152.77.145) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.1185.13; Thu, 27
+ Sep 2018 14:31:07 +0000
+Authentication-Results: spf=pass (sender IP is 43.228.187.119)
+ smtp.mailfrom=bakker-accountants.nl; Hotmail.com; dkim=pass (signature was
+ verified) header.d=smtpcorp.com;Hotmail.com; dmarc=bestguesspass action=none
+ header.from=bakker-accountants.nl;
+Received-SPF: Pass (protection.outlook.com: domain of bakker-accountants.nl
+ designates 43.228.187.119 as permitted sender)
+ receiver=protection.outlook.com; client-ip=43.228.187.119;
+ helo=a1i887.smtp2go.com;
+Received: from a1i887.smtp2go.com (43.228.187.119) by
+ BL2NAM02FT044.mail.protection.outlook.com (10.152.77.35) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.1185.13 via Frontend Transport; Thu, 27 Sep 2018 14:31:06 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:34E95BA4385F4CDD24ACB6D2CAE090B108AAE3F14EE84FFAC564623D17CE8607;UpperCasedChecksum:A6DAB05679AEF530A5EACDD45CBD0643360C538AB191EB28616B0F32A3071D8E;SizeAsReceived:2341;Count:22
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=smtpcorp.com; s=a1-4; h=Feedback-ID:X-Smtpcorp-Track:Message-ID:Date:
+	Subject:To:From:Reply-To:Sender:List-Unsubscribe;
+	bh=KMWETuD9QIezqr/gvxpn8knGnPqH5TfIaSwIkX2HdsA=; b=rVyk95eTtDtmlCkfbZQxWOoSRL
+	YKa0PDoAIzYzkHtVjA1gJfpK+XOTHZlbty9ANLR0m+4J9lf4iycZqiBQXF3oGSK95fRI3KcknfRAP
+	MIw+2hlr406eR+MNcsOr8/Gg1pUvysI4pykVIkesILVbXAcIy8Yb4vC+dvcCVCEpd7zv9jUjOfmrB
+	xjPMGOgWIqTbcM5sSZ10us04FuwxOqAWUiKePAVPcFgG6C9dwlpssIRczQvV/9WRhYPmzzWaCXYuN
+	CfXaQPo9aK+Tj30a5P/KP6ei94m8qqk+AoMRBS7+FQdoUUfymcUf90+k/E8hnohoE4EK4RobNE70V
+	jyWjuyfQ==;
+Received: from [10.173.255.233] (helo=SmtpCorp)
+ by smtpcorp.com with esmtpsa (TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256)
+ (Exim 4.91) (envelope-from <Administrator@bakker-accountants.nl>)
+ id 1g5XJq-4pkT1f-6L
+ for stefan_heuvel8@Hotmail.com; Thu, 27 Sep 2018 14:31:06 +0000
+Received: from [145.128.188.239] (helo=mail.bakker-accountants.nl)
+ by smtpcorp.com with esmtpsa (TLS1.0:ECDHE_RSA_AES_256_CBC_SHA1:256)
+ (Exim 4.91) (envelope-from <Administrator@bakker-accountants.nl>)
+ id 1g5XJp-IbZrEA-Lz
+ for stefan_heuvel8@Hotmail.com; Thu, 27 Sep 2018 14:31:05 +0000
+Received: from Bakker-EXC.BAKKER.LAN (192.168.58.2) by Bakker-EXC.BAKKER.LAN
+ (192.168.58.2) with Microsoft SMTP Server (TLS) id 15.0.847.32; Thu, 27 Sep
+ 2018 16:31:03 +0200
+Received: from Bakker-EXC.BAKKER.LAN ([fe80::95d5:6c0:3416:606f]) by
+ Bakker-EXC.BAKKER.LAN ([fe80::95d5:6c0:3416:606f%14]) with mapi id
+ 15.00.0847.040; Thu, 27 Sep 2018 16:31:03 +0200
+From: Administrator <Administrator@bakker-accountants.nl>
+To: "stefan_heuvel8@Hotmail.com" <stefan_heuvel8@Hotmail.com>
+Subject: Intropersoneel
+Thread-Topic: Intropersoneel
+Thread-Index: AQHUVm63mPnTPboC60aTizggpR+BMQ==
+Date: Thu, 27 Sep 2018 14:31:03 +0000
+Message-ID: <6a32bda6bdc44164b11cbad0e6ea5178@Bakker-EXC.BAKKER.LAN>
+Accept-Language: en-US, nl-NL
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [::1]
+Content-Type: multipart/alternative;
+	boundary="_000_6a32bda6bdc44164b11cbad0e6ea5178BakkerEXCBAKKERLAN_"
+X-Smtpcorp-Track: 1g5bJpmPZrEjLz.rFXoRzO90
+Feedback-ID: 210195m:210195ay_0qCd:210195sstWkq1ps1
+X-Report-Abuse: Please forward a copy of this message, including all headers,
+ to <abuse-report@smtp2go.com>
+X-IncomingHeaderCount: 22
+Return-Path: Administrator@bakker-accountants.nl
+X-MS-Exchange-Organization-ExpirationStartTime: 27 Sep 2018 14:31:06.8424
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: 9a27e0a5-5306-4800-7d1e-08d62485dc84
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Microsoft-Exchange-Diagnostics: 1;BL2NAM02FT044;1:wM+IJ7KAXUyV8UyIn/jGYJ08hLxNtdr6pH40QA2Ng6Uw3zkN1RHCuEe392HWnaBdaVpR91sFnGOVKpVY6yFrrot6EE0Y5CsYgPdQ9VNUwiaj0Mc/4Vf9Ni1Ghl91rnzQ
+X-Forefront-Antispam-Report: EFV:NLI;
+X-MS-Exchange-Organization-AuthSource:
+ BL2NAM02FT044.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 9a27e0a5-5306-4800-7d1e-08d62485dc84
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(5000110)(711020)(4605076)(610169)(650170)(8291501071);SRVR:BL2NAM02HT069;
+X-Microsoft-Exchange-Diagnostics:
+ 1;BL2NAM02HT069;3:grs1sFBcvXueQUmEMK5e1BBrjoJYoSuVSsA+xD6sbh+nidPaSGQy2rrZlomWTjXmrmkVyeRFoz1egZe/cc6Ujl57tNGCFbrwB1DebX++yzQu3KCQYJKag5EYQJXQagvJ2xxONHenWplMhqi56veltH7GAtP8HJfrHD3iVU885as/7Ej1WGythecrPlpMJrxDnB3JC2npMLpD0qJTAw6IM0eZdkbpdy1zf54yguw8VUvyY72wStvnufBdGWlK/p0a63zIgYtVT71UgfCodPmEkX1FHDJOhyvMeR4w6pNX4BohgVFNyAJYKLd9F851NvEs;25:CQvP8+PNnwxuyODa3sbQeT/RKJYXVzLNWubasMUjYLDsXtxc+quZFR7iEkYJLr1+SnDUDSHJI0qbnf5MxJ3Q069Cy1xeVaJnHBzD7ktzjGGvRcYu/rw/d5lU/tQtP6oANbEKBNsgJT8IkWsTKq2Jbr2xIkjjjoqFSn4j/UMWbQVSg/+JAofNw3dtLuhRA99fcifqB2XmFgjIDSHg/UGrZb5384LL4Cf/VFtTgK3RG5xOQan1in5ADZKrhXs9iJIN+GebqtiOi7fZBBBs6KAnikUgpsSnuj03eZq7hQW664VslzDUgZRpo2cUHsg30rGN6kxpjH+cI4o9Q7LDOazxFw==;31:JFF7RABgBUYwVSzEfD5OBv5Opb638mDko7Ou82Nf8tfz/CAfiTol+tNELE9BSjZCYC6e1b4QZ88RofBiaSn6Y/Jd4H1cIu98t4nGSRRkFirv9uybiKnmoTCfnZ7xkDwE17hje9x4e4ciQJFwM5a/v1/LeB0Goa6JYwXDhC/ZtDm0mgclsob/U9Jdd+sN0nhHDnFd8WJn0F8pIIWcdZbxpVmO6Bm4rawNpJ6zFuldOWg=
+X-MS-TrafficTypeDiagnostic: BL2NAM02HT069:
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 43.228.187.119
+X-SID-PRA: ADMINISTRATOR@BAKKER-ACCOUNTANTS.NL
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-Exchange-Antispam-Report-Test: UriScan:(269456686620040);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(444111676)(52401380)(52601095)(52505095)(52406095)(88862240)(88860193)(82015058);SRVR:BL2NAM02HT069;BCL:0;PCL:0;RULEID:;SRVR:BL2NAM02HT069;
+X-Microsoft-Exchange-Diagnostics:
+ 1;BL2NAM02HT069;4:dIequGtEkzOS/TkbwBhWmedbtSPR91P1lTfqRs93tC6CPxVynuASWfse/qk1rJpXAh1JLaWsIOyklLrcN4R1/gRnY55Ml4QYG2cK8N9nAtyATA+G8kWL7C1e2gYSwmX9gJzVW/Qvf83SqBzN2docyNezHdkaUSjPoF2qV6VrVfTwkceRI/2IUf/r7wJPXEElZFizlrodQs5gBtuchtILgfQx7d7LJR6vdm0Zpl7Ab+cQY43jQw9ddFrm9jGgP2QQP8r8vdNrn6xexlHqcMuzSnjOX1dJJAe5u4kzyQDt/Jf29qDHq+U3S4OtLFMfFoHu;6:doxN/J96yu3pKttTzyyiDGRYuTa+eHmXOXnzDxTwXHsdIMoBaXAU3nkbbbOIiaUeAxfasyehuGbJbfjtEhM/wq0jXcR2GsTSokbW3V3kqI3oSspZps3KKQ9YoIKJW5FdXPo0h1LIKmDjlEx3UFtGURNqJK0dl+Q0p+Y582njpeW5vQQ2hjgDHxeMKtxJRVdk94WVXM4lmeeAw14f5qzPsmyOzPuMnyMRRzSMcuNYN4HR1Lir2wc2TxVOliDAhIuoAFg9vbw6zdaCt4cHvodgTsxa2wkj6WTV1Y6+G6POpccaSN1AMACmG7Y1uvsTo2G8IoWhPISTBFwmWvu9btvSKRa8hr6la4QxV0tMd0HFC3MeuUwkHeJUdwLSRmveaZGWRNzocvYn/Lwq3n6Oz5xXwdS1fZdfwauBiDE/eNDGr+EMdQUaa2XZ0LczayQfE0smN4ILgThGGbisKqQ+huZG7Q==
+X-Microsoft-Antispam-Message-Info:
+ sOlJK3OBHj+XoqCCu2Mn0+lltfTPLNqaZ7412Pdlgmy+hu6bG22EtBU7eYkRZXJ98GvurMGFE4jTjJMjq7Ggb+BwnocNB4PBNgDPqK15lrofn8rlZgMSxTk8Lm6sk7wAaW57cYpxmJqkpSYKenfaiF91FOLWcaQIe66dZVjmz9+hQb2+HpN4OPAOE7Xpv4WCdoSGRD6ynPe1Y8aOxQb3MsSsDT2ULbiucYonKzutg0BMX6+sWDQb6AQL/eusPHG84QqJxmuewDMNFcIX6RXXk3GWNLq+ozvsxes69zA9W9GSRWJrJNn2yMZD07KdB4UWLU9c8HMM0VJe6mZF16zB4Vpbcm6i42IXxKtJpBNcpn74cqcZRJQM65oR6RLdypEG
+X-Microsoft-Exchange-Diagnostics:
+ 1;BL2NAM02HT069;5:LWt5bHSYAAxnPpB3cyZHfRfArfFVcJuqWwg16VObX+etn29N3TAC/cxd7IpEPzYWZTtIsfibj6kVN9FgH6hbjTGhlvfZKZ2poh4l2uMovSAPD/67De43kjPUqS617wPCYILBW7U7GyQHvT9pE5hq/uGHxInLslZYk6p+gswy9Lk=;7:BVgBa6vFVZHGy0NmfZW1FbxGa2MtqMvYn9j743s6rVQ+p+SRN57exoRuS5Lx9pZjfAdP2i1mdv8g64lzWSwXxz63jT/wD+wthLdZRm1gbEXWZ144cwO39O+MImyRnZQ2pOfco0vJ0n6XZtVEM8khP4xuSZ07HxauX/bVRmUZgMYKRe26/5a4v5Bw7ujaFFREz0h0yfoNz7Ucr1jzeFh1Pk7I7cOk2CAwEgfYfQfXgpwtdA/z1KROh1xsQdqlZxEr
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Sep 2018 14:31:06.5611
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9a27e0a5-5306-4800-7d1e-08d62485dc84
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ f12efbb0-867f-4c93-8261-502eceebfafa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2NAM02HT069
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.5243061
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1164.016
+X-Microsoft-Exchange-Diagnostics:
+	1;HE1PR02MB1131;27:o8hqdR0UUzK+or/MRFr1qOrAbCvWASuLuikMGM3a8TyMqwHH4o9LFFnvGT6HkkXjz5iastRsIJI23MY1SWGkfylOUb/R+h4Oe81CjVx6zdMpACfUbX6N1Q3FMXOZaBewlkRHJglaYEj1Ef7hisbEcUyY0tDGle21vpjfPCVfORbBhQFMbhKifEQ6s6hWai4fMQkur7A5p/OUVnvlT7aucXK37DuXMZ39xUuchTHOhuijchJKvgV/BYTilzSHItpVJ4Tuo3cfURYSEC0lWCkSxGaEsulB/muNmg9P5IazcpbHAZERzNHuGdyGElGGX7MW0xXwtJBwHxlPFupsi2cS+ZIEbrBeILfGGDVwob8+sNpPK3yfMcUu5BjQ5pRNA5ytwgGfFvS7/2eCV0jhX5MPyqt0UkJ577N6eBUV/k4/JucDhT+/9ralSqCTSTeJcehLHekbLA67/7KuoESkp2sz2bUgnFJZM/j7xQE2dUPJrKZmc3ifupLEeHP47LrXO0m7Y22roHdvfIjtOMlhmdz3e/UwwUazZwJ9AV5a98ImoIcIRAhua8XTRzxHUhAXEv1bpfeQp2XzDDiH1XHEV65y2O9C3BCv4wesVP7ndQa0pRK0xaGdP3uVI3z7QuretuxqzhRO6DaazPMdSgLsnzHmwwBeE6gjMdoUcUfv+niNqHc3A0tyTLz+xuHxdJouOxrxRuOjHeo9lm6e37ejppIdo1wO7gwF8JGqGJfIut7CUyk=
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000261)(5061607266)(5061608174)(4900095)(4920089)(6370004)(4950130)(4990090)(9140004);RF:JunkEmail;
+X-Message-Info:
+	qoGN4b5S4yqZ5AGQNRDrjNR+2wjTTJL6kNQOsfvXVn5rdK4wAfvhMNk2Rq6Vbs2EhdVghFAES+seDhR0w++UyXw1gNL+W1oozTNTJK2HfoqIPa+iStgIJrn3Hxrw5JKjAv70FhYJxXlMR8oIicRXmvcS1SIvy/b1GoKkuIQA/StUic383fp5qheaMxLW/Km19OJJqhZp+XrxnDdb4xn8fA==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MjtHRD0xO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	fIxKsiYWfNoXNYJCcuJDO5gIUPYG/JZ6fWx0Itnj6pTfClOykhtFOH1J983z2QMgrR8l8pNnToJJbQnJhRQ6sSKgTVT78xrePREv+hI2WEVhSAmM6yaq1+hPV64MuCa/ibCbdukJ0EHNJTa03Vr6XINBghSpecpc0n8uiwOEEz9djPUXvGbkOv4jjKuhbBhn8qcYBgfKdQhi0rOzlGp7ll1Rj10LlwFxAnfpnte0+Ycm09TxFgaUdGhRxeEvEq6vuQ7YbUOk58mDVqpLhNCwjgmV3/bxCrrH2ueHK9Cad3V+Aoic2zlfX54dZUKvgAyugImmOSKJLZ4EnaS/kZbAglYPAiEQRjTXb6FybhlaEpjeVFEU+2foxphuzo1XSAglWTP8MMQRqPfDVci7RH6z4EYIUT712hi9V6R3kzYhI//5OdFD/f+ywJZ/nTCTStnq0HnK0AMFxt6I77bpCMv4DFHZ9ONEH1xgPhwknoL3l3ewZudmZ653IPA+7IAb+0wQ8t96uMwd6hEWC46m+uAkE9WlSWWp9S6ILmjKzkfq17Btez9PDUwiqEGtyUDKDgAcSAllubVj00FNluzwp1JA7kBUnCKPyM9aZMj72IBUYfDJ/7j9+mS7Ui+RSeUF1eXLNxeZEf2exJYleC16+W1XdwJFudSkGmO1IBVf88/WJWU=
+MIME-Version: 1.0
+
+--_000_6a32bda6bdc44164b11cbad0e6ea5178BakkerEXCBAKKERLAN_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Beste Gerco / Chris,
+
+Ik heb van Thomas van Pionect doorgekregen dat niet alleen intropersoneel.n=
+l domain bij hun stond (is overgezet) echter dat ze ook nog het domain intr=
+obbl.nl hebben van intropersoneel.
+Hierbij begreep ik echter dat er geen enkel DNS record ingesteld staat.
+
+Betreft dit een domein die jullie willen behouden ? Zodoende zal ik hem ove=
+rzetten naar ons beheer.
+Of betreft dit een domain dit kan komen te vervallen ?
+
+Alvast bedankt.
+Met vriendelijke groet,
+Stefan van den Heuvel
+
+
+
+Veenweideweg 17 | 2957 LD Nieuw-Lekkerland | +31 184 68 62 83
+
+DISCLAIMER:
+A.A.D. Netwerken biedt geen garanties, noch uitdrukkelijk, noch impliciet, =
+aan een persoon of instelling, ten aanzien van de geboden informatie.
+Deze dient te worden aanvaard in de vorm waarin zij word verstrekt. Verder =
+gelden geen voorwaarden of garanties met betrekking tot de actualiteit en/o=
+f
+geschiktheid voor een beoogd doel. A.A.D. Netwerken zal op geen enkele wijz=
+e verantwoordelijk zijn of aansprakelijk gesteld kunnen worden voor schade
+van welke aard dan ook. Daarbij inbegrepen bijzondere, indirecte en voortvl=
+oeiende schade die het gevolg is van, of voortvloeit uit de hier geboden in=
+formatie.
+
+
+
+--_000_6a32bda6bdc44164b11cbad0e6ea5178BakkerEXCBAKKERLAN_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none"><!--P{margin-top:0;margin-b=
+ottom:0;} .ms-cui-menu {background-color:#ffffff;border:1px rgb(171, 171, 1=
+71) solid;font-family:"Segoe UI WPC", "Segoe UI", Tahoma, "Microsoft Sans S=
+erif", Verdana, sans-serif;font-size:10pt;color:rgb(51, 51, 51);} .ms-cui-m=
+enusection-title {display:none;} .ms-cui-ctl {vertical-align:text-top;text-=
+decoration:none;color:rgb(51, 51, 51);} .ms-cui-ctl-on {background-color:rg=
+b(223, 237, 250);opacity: 0.8;} .ms-cui-img-cont-float {display:inline-bloc=
+k;margin-top:2px} .ms-cui-smenu-inner {padding-top:0px;} .ms-owa-paste-opti=
+on-icon {margin: 2px 4px 0px 4px;vertical-align:sub;padding-bottom: 2px;dis=
+play:inline-block;} .ms-rtePasteFlyout-option:hover {background-color:rgb(2=
+23, 237, 250) !important;opacity:1 !important;} .ms-rtePasteFlyout-option {=
+padding:8px 4px 8px 4px;outline:none;} .ms-cui-menusection {float:left; wid=
+th:85px;height:24px;overflow:hidden}--></style>
+</head>
+<body>
+<div style=3D"font-size:12pt;color:#000000;background-color:#FFFFFF;font-fa=
+mily:Calibri,Arial,Helvetica,sans-serif;">
+<p>Beste Gerco / Chris,<br>
+<br>
+Ik heb van Thomas van Pionect doorgekregen dat niet alleen intropersoneel.n=
+l domain bij hun stond (is overgezet) echter dat ze ook nog het domain intr=
+obbl.nl hebben van intropersoneel.<br>
+Hierbij begreep ik echter dat er geen enkel DNS record ingesteld staat.<br>
+<br>
+Betreft dit een domein die jullie willen behouden ? Zodoende zal ik hem ove=
+rzetten naar ons beheer.
+<br>
+Of betreft dit een domain dit kan komen te vervallen ? <br>
+</p>
+<p>Alvast bedankt.<br>
+Met vriendelijke groet,<br>
+Stefan van den Heuvel<br>
+<br>
+&nbsp;<br>
+<br>
+Veenweideweg 17 | 2957 LD Nieuw-Lekkerland | &#43;31 184 68 62 83<br>
+<br>
+DISCLAIMER:<br>
+A.A.D. Netwerken biedt geen garanties, noch uitdrukkelijk, noch impliciet, =
+aan een persoon of instelling, ten aanzien van de geboden informatie.
+<br>
+Deze dient te worden aanvaard in de vorm waarin zij word verstrekt. Verder =
+gelden geen voorwaarden of garanties met betrekking tot de actualiteit en/o=
+f
+<br>
+geschiktheid voor een beoogd doel. A.A.D. Netwerken zal op geen enkele wijz=
+e verantwoordelijk zijn of aansprakelijk gesteld kunnen worden voor schade
+<br>
+van welke aard dan ook. Daarbij inbegrepen bijzondere, indirecte en voortvl=
+oeiende schade die het gevolg is van, of voortvloeit uit de hier geboden in=
+formatie.<br>
+<br>
+<br>
+</p>
+</div>
+</body>
+</html>
+
+--_000_6a32bda6bdc44164b11cbad0e6ea5178BakkerEXCBAKKERLAN_--
