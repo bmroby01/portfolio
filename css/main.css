@@ -172,7 +172,10 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgba(128, 128, 128, .4);
+    transition: all .4s ease-in-out;
 }
+
+
 
 /*=== Main Area ===*/
 
@@ -184,6 +187,12 @@ nav ul li a:hover {
 .main-area p {
     text-align: center;
 }
+
+.main-area h1:hover {
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+}
 /*=== Gallery Slideshow ===*/
 
 .gallery-slideshow {
@@ -193,6 +202,7 @@ nav ul li a:hover {
     margin: 0 auto;
     border: 3px solid #8600b3;
     box-shadow: 5px 10px rgba(136, 136, 136, .5);
+    background-color: #8600b3;
 }
 
 .gallery-slideshow img {
@@ -201,9 +211,9 @@ nav ul li a:hover {
 }
 
 .gallery-slideshow:hover img {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
 }
 
 /*=== About Me Area ===*/
@@ -230,9 +240,24 @@ nav ul li a:hover {
     box-shadow: 5px 5px rgba(136, 136, 136, .5);
 }
 
+.headshot img:hover {
+    -moz-transform: scale(.9);
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+
+.important-word {
+    text-transform: uppercase;
+    color:#8600b3;
+}
+
 .personal-story p {
     text-align: center;
     text-shadow: 1px .5px #b3b3b3;
+}
+
+.personal-story img {
+    width: 5%;
 }
 
 /*=== Contact ===*/
@@ -323,6 +348,10 @@ nav ul li a:hover {
     margin-top: 1em;
 }
 
+.col img:hover {
+    opacity: .5;
+}
+
 .grid h3 {
     text-align: center;
     margin: 0 auto;
@@ -335,6 +364,97 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+}
+
+.description-area h4 {
+    margin: 0 auto;
+}
+
+/*==== CONTACT PAGE ====*/
+
+.general-info h2, .wrapper h2 {
+    text-align: center;
+    text-shadow: 2px 1px #b3b3b3;
+}
+
+.general-info p {
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #8600b3;
+    width: 90%;
+    box-shadow: -3px 3px rgba(136, 136, 136, .5);
+    color: white;
+}
+
+.notification {
+    padding: 1em;
+    background-color: #ac00e6;
+    color: white;
+}
+/*==== CONTACT PAGE FORM ====*/
+
+/* Background color and padding for form */
+
+.container {
+    width: 90%;
+    border-radius: 5px;
+    background-color: #b3b3b3;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#name {
+    width: 70%;
+}
+
+.label {
+    display: block;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #8600b3;
+}
+
+/* Style inputs with type="email", select elements */
+input[type=email], select {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+/*Style the submit button */
+input[type=submit] {
+    background-color: #8600b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #999;
 }
 
 
@@ -464,6 +584,11 @@ nav ul li a:hover {
         
     }
     
+    .personal-story img {
+        width: 3%;
+    }
+    
+
     /*==== PORTFOLIO PAGE ====*/
 
     .grid {
@@ -508,6 +633,15 @@ nav ul li a:hover {
     .main-footer img {
         width: 2%;
     }
+    
+    /*==== CONTACT PAGE ====*/
+
+    .general-info p {
+        font-weight: bold;
+    }
+    
+    input[type=text], select {
+    width: 80%;
 
 
 }
@@ -576,7 +710,8 @@ nav ul li a:hover {
         width: 50%;
     }
     
-        /*==== PORTFOLIO PAGE ====*/
+    /*==== PORTFOLIO PAGE ====*/
+    
     .portfolio-heading h2 {
         margin-top: 3em;
     }
@@ -591,6 +726,12 @@ nav ul li a:hover {
     .description-area {
         width: 50%;
         padding: 1em;
+    }
+    
+    /*==== CONTACT PAGE ====*/
+
+    .general-info h2 {
+        margin-top: 3em;
     }
     
 }
